@@ -1,0 +1,117 @@
+html{
+    display: flex;
+    background-size: 100%;
+    height: 100vh;
+    /* margin: 0%; */
+    background-color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/background.png);
+    
+} 
+
+body{
+    
+    background-color: rgba(239, 239, 239, 0.683);
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 40%;
+    height: 80vh;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.78); 
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.78);
+}
+
+
+
+.register-form{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    /* align-self: center; */
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#input{
+    
+    /* align-self:center; */
+    height: 50px;
+    width: 90%;
+    
+    /* left: 31.000015258789062px;
+    top: 41.99993896484375px;  */
+    border-radius: 0px;
+    margin: 10px;
+    background-color: #E5E5E5;
+    border: 0px solid #000;
+
+}
+
+::placeholder {
+    color: rgb(57, 57, 57);
+}
+
+input:hover::placeholder{
+    padding: 10px;
+    padding-left: 10px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+#input {
+    border: rgb(158, 156, 156) solid 0.1px;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+input:focus::placeholder {
+    color: #E5E5E5;
+    transition: 0.4s;
+}
+
+button{
+
+    display:block;
+    box-sizing: border-box;
+    /* align-self:center; */
+    height: 50px;
+    width: 90%;
+    
+    /* left: 31.000015258789062px;
+    top: 41.99993896484375px;  */
+    border-radius: 3px;
+    margin: 10px;
+    background: #4263EB;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 0px solid #000;
+    
+}
+
+p{
+    display:block;
+    font-size: 15px;
+    height: 50px;
+    width: 90%;
+    box-sizing: border-box;
+    text-align: center;
+    height: 50px;
+    width: 90%;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-top: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
